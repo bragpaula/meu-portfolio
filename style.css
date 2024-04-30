@@ -14,6 +14,8 @@ body{
 }
 .flex{
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* estilização header */
@@ -30,7 +32,7 @@ header .central{
     gap: 36px;
 }
 .menu a{
-    color: #747474;
+    color: #730071;;
     font-size: 20px;
     text-decoration: none;
     font-weight: 500;
@@ -39,43 +41,46 @@ header .central{
     transition: 1s;
 }
 .btn-contato button{
-    color: #000;
+    color: #FDF0D5;
     font-size: 22px;
     font-weight: 600;
     line-height: 30px; /* 136.364% */
     padding: 2px 34px;
     border-radius: 30px;
-    background: #B102C0;
+    background: #390040;
     border: 0;
     cursor: pointer;
     transition: 1s;
 
 }
 .menu a:hover{
-    color: white;
+    color: #390040;
     transform: scale(1.05);
 }
 .btn-contato button:hover{
-    box-shadow: 0px 0px 12px #ed27ff;
+    box-shadow: 0px 0px 12px #18001a;
     transform: scale(1.05);
 }
 
 /* estilização topo do site */
 .topo{
-padding: 40px 4%;
+    padding: 58px 4%;
+    height: 620px;
 }
 h1{
-    color: #B102C0;
+    color: #390040;
     font-size: 72px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    margin-bottom: -18px;
+    margin-top: -18px;
 }
 h1 span{
-    color: white;
+    color: #730071;;
 }
 h2{
-    color: #FFF;
+    color: #730071;
     font-size: 26px;
     font-style: normal;
     font-weight: 500;
@@ -85,13 +90,160 @@ h2{
     align-items: center;
     justify-content: space-between;
 }
-.btn-contato button{
+.txt-topo .btn-contato button{
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 10px;
-    margin-top: 10px;
+    margin-top: 28px;
+    width: 257px;
+    height: 52px;
+    flex-shrink: 0;
 }
 a{
     text-decoration: none;
+}
+@keyframes flutuar {
+    0%{
+        top: 0;
+    }
+    100%{
+        top: 30px;
+    }
+    
+}
+.img-topo img{
+    position: relative;
+    animation: flutuar 3s ease-in-out infinite alternate;
+}
+
+/* estilização section sobre mim */
+.sobre{
+    height: 520px;
+}
+.sobre .org{
+    max-width: 860px;
+    gap: 80px;
+}
+h3{
+    color: #390040;
+    font-family: Poppins;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+p{
+    color: #747474;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+/* estilização section habilidades */
+.habilidades .org{
+    height: 520px;
+    flex-direction: column;
+    padding: 58px 4%;
+}
+.card{
+    width: 130px;
+    height: 165px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: #730071;
+    flex-direction: column;
+    transition: 1.2s;
+}
+.card:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 8px #73007135;
+}
+.cards{
+    display: flex;
+    gap: 52px;
+    margin-top: 48px;
+}
+h4{
+    color: #FDF0D5;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+
+/*estilização section projetos*/
+.projetos{
+    flex-direction: column;
+    padding: 48px 4%;
+    height: 520px;
+}
+.destaques h3{
+    color: #730071;
+    border-bottom: 6px solid #390040;
+    padding-bottom: 6px;
+    width: min-content;
+}
+.destaques{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 60px;
+}
+.org-projetos{
+    margin-top: 32px;
+    justify-content: space-around;
+    width: 1280px;
+}
+.img-port{
+    width: 380px;
+    height: 230px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background-size: cover;
+    background-position: 100% 0;
+    transition: 12s;
+    cursor: pointer;
+    position: relative;
+}
+.img-port:hover{
+    background-position: 100% 100%;
+}
+.overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #1c0020a7;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FDF0D5;
+    font-size: 26px;
+    font-weight: 600;
+    opacity: 0;
+    transition: 0.5s;
+}
+.overlay:hover{
+    opacity: 1;
+}
+.box-projeto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 22px;
+}
+.box-projeto .btn-contato button{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px; /* 150% */
+    width: 200px;
+    height: 35px;
 }

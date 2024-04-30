@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portifólio | Paula Braga</title>
+    <title>Portfólio | Paula Braga</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,10 +17,10 @@
                     <img src="img/Paula Braga.svg" alt="Paula Braga">
                 </div><!--logo-->
                 <nav class="menu">
-                    <a href="#">Início</a>
-                    <a href="#">Sobre</a>
-                    <a href="#">Habilidades</a>
-                    <a href="#">Projetos</a>
+                    <a href="#topo">Início</a>
+                    <a href="#sobre">Sobre</a>
+                    <a href="#habilidades">Habilidades</a>
+                    <a href="#projetos">Projetos</a>
                 </nav> <!--menu-->
                 <div class="btn-contato">
                     <a href="#">
@@ -31,7 +31,7 @@
         </header>
 
         <main>
-            <section class="topo">
+            <section class="topo" id="topo">
                 <div class="central">
                     <div class="flex">
                         <div class="txt-topo">
@@ -43,17 +43,110 @@
                                 desenvolvedora Front-End
                             </h2>
                             <div class="btn-contato">
-                                <a href="#"><button>
+                                <a href="https://www.linkedin.com/in/paula-braga-5344102b1?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BMzqmVDD5QS%2BL%2F0cei2wQ4g%3D%3D"><button>
                                     <img src="img/pngwing 1.svg" alt="Logo do linkedin"> Linkedin
                                 </button></a>
                             </div><!--btn-contato-->
                         </div><!--txt-topo-->
                         <div class="img-topo">
-                            <img src="img/Group 5.png" alt="">
+                            <img src="img/Group 5.svg" alt="">
                         </div><!--img-topo-->
                     </div>
                 </div> <!--central-->
             </section> <!-- topo -->
+            <section class="sobre flex" id="sobre">
+                <div class="org flex">
+                    <img src="img/undraw_programmer_re_owql 2.svg" alt="ilustração" class="ilus">
+                    <div class="text-sobre">
+                        <h3>
+                            Sobre mim
+                        </h3>
+                        <p>
+                            Aspirante a desenvolvedora front-end com conhecimentos em HTML, CSS e JavaScript. Foi no desenvolvimento de interfaces que encontrei a oportunidade perfeita de unir a minha paixão por design e por tecnologia, busco estimular e aperfeiçoar meus conhecimentos na prática. 
+                            Atualmente cursando o 3° período de Informática Para a Internet no IFRN. 
+                        </p>
+                    </div><!--text-sobre-->
+                </div><!--org-->
+            </section><!--sobre-->
+            <section class="habilidades" id="habilidades">
+                <div class="central">
+                    <div class="org flex">
+                        <h3>Habilidades</h3>
+                        <div class="cards flex">
+                            <div class="card flex">
+                                <h4>HTML 5</h4>
+                                <img src="img/html5 1.svg" alt="logo html" class="icon">
+                            </div><!--card-->
+                            <div class="card flex">
+                                <h4>CSS 3</h4>
+                                <img src="img/css-3 1.png" alt="logo css" class="icon">
+                            </div><!--card-->
+                            <div class="card flex">
+                                <h4>JavaScript</h4>
+                                <img src="img/js-removebg-preview 1.png" alt="logo JavaScript" class="icon">
+                            </div><!--card-->
+                            <div class="card flex">
+                                <h4>GitHub</h4>
+                                <img src="img/github 2.png" alt="logo github" class="icon">
+                            </div><!--card-->
+                            <div class="card flex">
+                                <h4>Figma</h4>
+                                <img src="img/figma 2.png" alt="logo figma" class="icon">
+                            </div><!--card-->
+                            <div class="card flex">
+                                <h4>Git</h4>
+                                <img src="img/Vector.svg" alt="logo git" class="icon">
+                            </div><!--card-->
+                        </div><!--cards-->
+                    </div><!--org-->
+                </div><!--central-->
+            </section>
+            <section class="projetos flex" id="projetos">
+                <h3>
+                    Projetos
+                </h3>
+                <div class="destaques">
+                    <h3>Destaques</h3>
+                    <div class="org-projetos flex">
+                        <div class="box-projeto">
+                            <a href="">
+                                <div class="img-port" style="background-image: url(img/HOME\ \(1\).jpg);">
+                                    <div class="overlay">Projeto Econaçu</div><!--overlay-->
+                                </div><!--img-port-->
+                                <div class="btn-contato">
+                                    <a href="#">
+                                        <button>Ver repositório</button>
+                                    </a>
+                                </div><!--btn-contato-->
+                            </a>
+                        </div><!--box-projeto-->
+                        <div class="box-projeto">
+                            <a href="https://nobrepiscinas-paulabraga.000webhostapp.com/">
+                                <div class="img-port" style="background-image: url(img/Home.jpg);">
+                                    <div class="overlay">Projeto Nobre Piscinas</div><!--overlay-->
+                                </div><!--img-port-->
+                            </a>
+                            <div class="btn-contato">
+                                <a href="#">
+                                    <button>Ver repositório</button>
+                                </a>
+                            </div><!--btn-contato-->
+                        </div><!--box-projeto-->
+                        <div class="box-projeto">
+                            <a href="">
+                                <div class="img-port" style="background-image: url(img/Captura\ de\ tela\ 2024-04-30\ 032501.png);">
+                                    <div class="overlay">Projeto Professor</div><!--overlay-->
+                                </div><!--img-port-->
+                                <div class="btn-contato">
+                                    <a href="#">
+                                        <button>Ver repositório</button>
+                                    </a>
+                                </div><!--btn-contato-->
+                            </a>
+                        </div><!--box-projeto-->
+                    </div><!--org-projetos-->
+                </div><!--destaques-->
+            </section><!--projetos-->
         </main>
     </div><!--container-->
 </body>
