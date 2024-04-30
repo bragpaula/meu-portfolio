@@ -180,7 +180,7 @@ h4{
 .projetos{
     flex-direction: column;
     padding: 48px 4%;
-    height: 520px;
+    height: 860px;
 }
 .destaques h3{
     color: #730071;
@@ -247,3 +247,17 @@ h4{
     width: 200px;
     height: 35px;
 }
+
+/*estilização contato*/
+.contato{
+    padding: 48px 4%;
+    height: 320px;
+}
+.contato .flex{
+    flex-direction: column;
+}
+.org-contato{
+    display: flex;
+    flex-direction: row;
+}
+
