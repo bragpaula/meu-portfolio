@@ -294,3 +294,15 @@ footer p{
     font-weight: 300;
 }
 
+/*responsividade*/
+@media screen and (max-width: 1020px){
+    /*geral*/
+    .flex{
+        flex-direction: column;
+    }
+    
+    /*header*/
+    .menu, .btn-contato{
+        display: none;
+    }
+}
