@@ -180,7 +180,7 @@ h4{
 .projetos{
     flex-direction: column;
     padding: 48px 4%;
-    height: 760px;
+    height: 520px;
 }
 .destaques h3{
     color: #730071;
@@ -244,65 +244,5 @@ h4{
     font-style: normal;
     font-weight: 500;
     line-height: 30px; /* 150% */
-    width: 200px;
-    height: 35px;
-}
-
-/*estilização contato*/
-.contato{
-    padding: 48px 4%;
-    height: 520px;
-    flex-direction: column;
-}
-.org-contato{
-    gap: 60px;
-    margin-top: 52px;
-}
-.box-contato{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 8px;
-}
-h5{
-    color: #390040;
-    font-size: 20px;
-    font-weight: 400;
-}
-h6{
-    color: #747474;
-    font-size: 14px;
-    font-weight: 500;    
-}
-.text-contato{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-footer{
-    width: 100vw;
-    height: 60px;
-    background: #390040; 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-footer p{
-    font-size: 14px;
-    font-weight: 300;
-}
-
-/*responsividade*/
-@media screen and (max-width: 1020px){
-    /*geral*/
-    .flex{
-        flex-direction: column;
-    }
-    
-    /*header*/
-    .menu, .btn-contato{
-        display: none;
-    }
+    padding: 4px 40px;
 }

@@ -9,14 +9,4 @@ Sou uma desenvolvedora apaixonada por transformar ideias em projetos concretos, 
 - Configuração de servidores (Windows Server, VirtualBox, Raspberry Pi)
 - Aplicações web focadas em produtividade e resolução de problemas cotidianos
 
-### 💼 Projetos Destacados
-- **[APSO - Apoio Solidário](#)**: Um sistema que conecta ONGs a voluntários, facilitando o engajamento em causas sociais.
-- **[The Racha](#)**: Um site simples e prático para dividir contas com os amigos, calculando automaticamente quanto cada pessoa deve pagar.
-- 
-### 🛠️ Tecnologias Utilizadas
-- **Frontend**: HTML, CSS, JavaScript
-- **Backend**: Python (Flask), Node.js
-- **Banco de Dados**: MySQL, SQLite
-- **DevOps**: Docker, VirtualBox, Servidores Windows e Linux
-
 
