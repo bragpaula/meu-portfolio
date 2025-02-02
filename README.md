@@ -1,4 +1,5 @@
 # Meu Portfólio de Desenvolvimento
+Status: Em desenvolvimento 🚧
 
 Bem-vindo ao meu portfólio! 👋 Aqui, você encontrará uma coleção dos meus projetos de desenvolvimento web e software, onde exploro diversas tecnologias e soluções criativas para problemas do mundo real.
 
