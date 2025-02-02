@@ -7,7 +7,7 @@ Bem-vindo ao meu portfólio! 👋 Aqui, você encontrará uma coleção dos meus
 Sou uma desenvolvedora apaixonada por transformar ideias em projetos concretos, sempre buscando aprender e evoluir. Tenho experiência em:
 
 - Desenvolvimento full-stack (Python, Flask, JavaScript, HTML/CSS)
-- Configuração de servidores (Windows Server, VirtualBox, Raspberry Pi)
+- Configuração de servidores (Windows Server, VirtualBox)
 - Aplicações web focadas em produtividade e resolução de problemas cotidianos
 
 
